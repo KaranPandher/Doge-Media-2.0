@@ -1,6 +1,12 @@
 Student Name: Stephane, Marat, Marvin, Karan
 Group Name: Doge-Media
 
+GitHub: https://github.com/svaillancourt/Doge-Media
+
+trello: https://trello.com/b/fit2MInQ/doge-social-media-project
+
+doc file: https://docs.google.com/document/d/1CybwT4prfElu970pLK0zEmvQT7yxaMu9/edit
+
 Your project must fulfill the following coding criteria:
 
     Demonstrates use of Semantic UI React
