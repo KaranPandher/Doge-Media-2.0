@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import { Checkbox, Form } from 'semantic-ui-react'
 
 const FormExampleForm = () => (
   <Form>
@@ -14,7 +14,6 @@ const FormExampleForm = () => (
     <Form.Field>
       <Checkbox label='Are you a human?' />
     </Form.Field>
-    <Button type='submit'>Submit</Button>
   </Form>
 )
 

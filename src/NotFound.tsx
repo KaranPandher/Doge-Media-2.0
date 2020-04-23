@@ -1,16 +1,14 @@
-import * as React from 'react';
-import error from './img/404error.png'
-import { Item } from 'semantic-ui-react';
+import * as React from "react";
+import error from "./img/404error.png";
+import { Item } from "semantic-ui-react";
 
-
-export interface INotFoundProps {
-}
+export interface INotFoundProps {}
 
 export default class NotFound extends React.Component<INotFoundProps> {
   public render() {
     return (
       <div>
-        <Item.Image as='a' href="./Page2" size='large' src={error} />
+        <Item.Image as="a" href="./Page2" size="large" src={error} />
       </div>
     );
   }
