@@ -13,9 +13,9 @@ export default class NavBar extends React.Component<INavBarProps> {
           Home
         </Menu.Item>
 
-        <Menu.Item as={Link} to={`/activities`} name="activities">
+        {/* <Menu.Item as={Link} to={`/activities`} name="activities">
           Activities
-        </Menu.Item>
+        </Menu.Item> */}
 
         <Menu.Item as={Link} to={`/page2`} name="Newsfeed">
           Newsfeed

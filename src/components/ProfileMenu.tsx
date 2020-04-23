@@ -1,8 +1,8 @@
 import React from 'react'
 import { Label } from 'semantic-ui-react'
 
-import stephane from '../img/selfie.jpg'
-
+import stephane from '../img/ProfilePictures/stephane.jpg'
+import karan from '../img/ProfilePictures/stephane.jpg'
 
 const LabelExampleImage = () => (
   <div>
@@ -12,7 +12,7 @@ const LabelExampleImage = () => (
       <Label.Detail>Podcaster</Label.Detail>
     </Label>
     <Label as='a' color='teal' image >
-      <img alt="karan" src={stephane} />
+      <img alt="karan" src={karan} />
       Karan
       <Label.Detail>Friend</Label.Detail>
     </Label>
