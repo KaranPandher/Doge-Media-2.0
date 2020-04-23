@@ -1,0 +1,19 @@
+git init
+git commit -m "comment"
+git push origin master
+
+
+git checkout -b branchname
+
+git checkout -b stephaneBranch
+git branch ( this verifies your branch)
+
+git push origin stephaneBranch 
+
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
