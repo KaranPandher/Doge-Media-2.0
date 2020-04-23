@@ -16,20 +16,19 @@ export default class NavBar extends React.Component<INavBarProps> {
           Activities
         </Menu.Item>
 
-
         <Menu.Item as={Link} to={`/page2`} name="Newsfeed">
-          Newseed
+          Newfseed
         </Menu.Item>
 
-        <Menu.Item as={Link} to={`/error-404`} name="otherpage">
+        <Menu.Item as={Link} to={`/error-404`} name="error">
           Broken Link Page
         </Menu.Item>
-        <Menu.Menu position="right">
-        <Menu.Item position="right" as={Link} to={`/page1`} name="login">
-          Login
-        </Menu.Item>
 
-        
+        <Menu.Menu position="right">
+          <Menu.Item position="right" as={Link} to={`/page1`} name="login">
+            Login
+          </Menu.Item>
+
           <Menu.Item>
             <Input icon="search" placeholder="Search..." />
           </Menu.Item>

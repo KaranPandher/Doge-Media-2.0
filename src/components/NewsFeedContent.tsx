@@ -11,10 +11,10 @@ const ItemExampleExtraContent = () => (
   <Item.Group>
   <h1>Newsfeed</h1>
     <Item>
-      <Item.Image  href="../Profile-Stephane.tsx" size='small' src={stephane} />
+      <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 
       <Item.Content>
-        <Item.Header as='a'>Stephane Valentine</Item.Header>
+        <Item.Header as='a' href="../Profile-Stephane">Stephane Valentine</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
@@ -24,7 +24,7 @@ const ItemExampleExtraContent = () => (
     </Item>
 
     <Item>
-    <Item.Image size='small' src={karan} />
+    <Item.Image as='a' href="../Profile-Karan" size='small' src={karan} />
 
       <Item.Content>
         <Item.Header as='a'>Karan </Item.Header>
@@ -37,10 +37,10 @@ const ItemExampleExtraContent = () => (
     </Item>
 
     <Item>
-    <Item.Image size='small' src={karan} />
+      <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 
       <Item.Content>
-        <Item.Header as='a'>Karan </Item.Header>
+        <Item.Header as='a' href="../Profile-Stephane">Stephane Valentine</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
@@ -50,10 +50,10 @@ const ItemExampleExtraContent = () => (
     </Item>
 
     <Item>
-    <Item.Image size='small' src={karan} />
+      <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 
       <Item.Content>
-        <Item.Header as='a'>Karan </Item.Header>
+        <Item.Header as='a' href="../Profile-Stephane">Stephane Valentine</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
