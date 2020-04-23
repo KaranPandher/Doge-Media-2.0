@@ -12,13 +12,6 @@ npm install react-router-dom
 typescript format
 
 npm install @types/react-router-dom
-npm install @types/semantic-ui-react
-npm install @types/redux react-redux
-
-
-
-npm i redux
-npm i redux-react
 
 add semantic vendor stylesheet to index.html
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
