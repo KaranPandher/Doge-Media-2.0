@@ -32,7 +32,8 @@ export default class App extends React.Component<IAppProps> {
           <Route path="/page3" component={Page3} />
           <Route path="/page4" component={Page4} />
           <Route path="/contact-us" component={ContactUs} />
-          <Route path="/Profile-Stephane" component={Stephane} />
+          {/* non displayed links */}
+          <Route path="/Profile-Stephane" component={Stephane} />   
           <Route path="/Profile-Karan" component={Karan} />
 
           <Route component={NotFound} />

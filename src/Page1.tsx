@@ -1,6 +1,7 @@
 import * as React from 'react';
 import FormExampleFieldErrorLabel from './components/InputFieldError'
 import FormExampleForm from './components/InputField'
+import LabelExampleImage from './components/ProfileMenu'
 
 export interface IPage1Props {
 }
@@ -11,6 +12,7 @@ export default class Page1 extends React.Component<IPage1Props> {
             <div>
                 <FormExampleForm/>
                <FormExampleFieldErrorLabel/>
+               <LabelExampleImage/>
             </div>
         );
     }
