@@ -8,7 +8,6 @@ const CardExampleCardProps = () => (
     header='Stephane Valentine'
     meta='"Wont Leave on a miss"'
     description='Stephane is a sound graphic designer living in Edmonton. Who enjoys playing basketball and petting random dogs.'
-    description2=''
     extra={extra}
   />
 )
