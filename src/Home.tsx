@@ -6,7 +6,7 @@ export interface Props extends RouteComponentProps {}
 export const home: React.FC<Props> = ({ history}) => {
   return (
     <div>
-      <div>Home</div>
+      <div>Page: Home</div>
       <Link to="/about">Go to About!</Link>
       <button
         onClick={() => {
