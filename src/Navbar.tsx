@@ -17,11 +17,15 @@ export default class NavBar extends React.Component<INavBarProps> {
         </Menu.Item>
 
         <Menu.Item as={Link} to={`/page1`} name="otherpage">
-          Another Page
+          Page 1 
         </Menu.Item>
 
-        <Menu.Item as={Link} to={`/Button`} name="button Assignment">
-          Button Assignment
+        <Menu.Item as={Link} to={`/page2`} name="page2">
+          Page 2
+        </Menu.Item>
+
+        <Menu.Item as={Link} to={`/page3`} name="page3">
+          Page 2
         </Menu.Item>
 
         <Menu.Item as={Link} to={`/error-404`} name="otherpage">
