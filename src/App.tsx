@@ -7,7 +7,6 @@ import ActvityDetails from "./components/ActivityDetails";
 import ActivityDashboard from "./components/ActivityDashboard";
 
 import NavBar from "./Navbar";
-import HomePage from "./HomePage";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
 import Page3 from "./Page3";
@@ -24,7 +23,7 @@ export default class App extends React.Component<IAppProps> {
       <Fragment>
         <NavBar />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={Page1} />
           <Route exact path="/activities" component={ActivityDashboard} />
           <Route path="/activities/:id" component={ActvityDetails} />
           <Route path="/page1" component={Page1} />

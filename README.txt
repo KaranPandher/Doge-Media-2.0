@@ -2,7 +2,7 @@ Group Name: Doge-Media
 
 Student Name: Stephane (svaillancourt), Marat (MSH2020), Marvin (MarvRoldan), Karan (KaranPandher)
 
-GitHub: https://github.com/svaillancourt/Doge-Media
+GitHub: https://github.com/KaranPandher/Doge-Media-2.0.git
 
 Trello: https://trello.com/b/fit2MInQ/doge-social-media-project
 
