@@ -9,8 +9,9 @@ const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/sho
 const ItemExampleExtraContent = () => (
   <Grid>
   <Item.Group>
+  <h1>Newsfeed</h1>
     <Item>
-      <Item.Image  href="../"size='small' src={stephane} />
+      <Item.Image  href="../Profile-Stephane.tsx" size='small' src={stephane} />
 
       <Item.Content>
         <Item.Header as='a'>Stephane Valentine</Item.Header>
