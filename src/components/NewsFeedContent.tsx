@@ -11,7 +11,7 @@ const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/sho
 const ItemExampleExtraContent = () => (
   <Grid>
   <Item.Group>
-  <h1>Newsfeed</h1>
+  <h1>Your Newsfeed</h1>
     <Item>
       <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 
