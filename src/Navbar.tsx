@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./App";
 import { Menu, Input } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
@@ -8,7 +9,7 @@ export default class NavBar extends React.Component<INavBarProps> {
   public render() {
     return (
       <Menu>
-        <Menu.Item as={Link} to={`/`} name="home">
+        <Menu.Item as={Link} to={`/page1`} name="login">
           Home
         </Menu.Item>
 
