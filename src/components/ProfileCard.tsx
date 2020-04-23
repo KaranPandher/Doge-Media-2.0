@@ -1,21 +1,22 @@
 import React from 'react'
-import { Card, Icon } from 'semantic-ui-react'
-
-const extra = (
-  <a>
-    <Icon name='user' />
-    16 Followers
-  </a>
-)
+import { Card, Icon} from 'semantic-ui-react'
+import stephane from '../img/selfie.jpg'
 
 const CardExampleCardProps = () => (
   <Card
-    image='/images/avatar/large/elliot.jpg'
-    header='Elliot Baker'
-    meta='Followers'
-    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    image= {stephane}
+    header='Stephane Valentine'
+    meta='"Wont Leave on a miss"'
+    description='Stephane is a sound graphic designer living in Edmonton. who enjoys playing basketball and petting random dogs.'
     extra={extra}
   />
+)
+
+const extra = (
+  <div>
+    <Icon name='user' />
+    16 Followers
+  </div>
 )
 
 export default CardExampleCardProps

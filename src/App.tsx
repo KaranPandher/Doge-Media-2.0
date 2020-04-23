@@ -12,6 +12,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
+import ContactUs from './Contact-Us';
 
 export interface IAppProps {
 }
@@ -29,6 +30,7 @@ export default class App extends React.Component<IAppProps> {
           <Route path='/page2' component={Page2} />
           <Route path='/page3' component={Page3} />
           <Route path='/page4' component={Page4} />
+          <Route path='/contact-us' component={ContactUs} />
           <Route component={NotFound} />
         </Switch>
       </Fragment>

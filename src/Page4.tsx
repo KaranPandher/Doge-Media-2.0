@@ -1,13 +1,13 @@
-import * as React from 'react';
+import * as React from "react";
+import ItemExampleExtraContent from "./components/NewsFeedContent";
 
-export interface IPage3Props {
-}
+export interface IPage4Props {}
 
-export default class Page3 extends React.Component<IPage3Props> {
+export default class Page4 extends React.Component<IPage4Props> {
   public render() {
     return (
       <div>
-        Page3. ("Another Page")
+        <ItemExampleExtraContent />
       </div>
     );
   }
