@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Input } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 export interface INavBarProps {}
@@ -27,6 +27,11 @@ export default class NavBar extends React.Component<INavBarProps> {
         <Menu.Item as={Link} to={`/error-404`} name="otherpage">
           Broken Link Page
         </Menu.Item>
+        <Menu.Menu position='right'>
+            <Menu.Item>
+              <Input icon='search' placeholder='Search...' />
+            </Menu.Item>
+          </Menu.Menu>
       </Menu>
     );
   }

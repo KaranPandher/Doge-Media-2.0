@@ -1,29 +1,21 @@
 import React from 'react'
-import { Form } from 'semantic-ui-react'
+import { Button, Checkbox, Form } from 'semantic-ui-react'
 
-const FormExampleFieldErrorLabel = () => (
+const FormExampleForm = () => (
   <Form>
-    <Form.Input
-      error={{ content: 'Please enter your valid email', pointing: 'below' }}
-      fluid
-      label='Email'
-      placeholder='Email'
-      id='form-input-email'
-    />
-    <Form.Input
-      error='Please enter your password'
-      fluid
-      label='Password'
-      placeholder='Password'
-    />
-    <Form.Checkbox
-      label='Are you a human?'
-      error={{
-        content: '',
-        pointing: 'left',
-      }}
-    />
+    <Form.Field>
+      <label>First Name</label>
+      <input placeholder='First Name' />
+    </Form.Field>
+    <Form.Field>
+      <label>Last Name</label>
+      <input placeholder='Last Name' />
+    </Form.Field>
+    <Form.Field>
+      <Checkbox label='Are you a human?' />
+    </Form.Field>
+    <Button type='submit'>Submit</Button>
   </Form>
 )
 
-export default FormExampleFieldErrorLabel
+export default FormExampleForm
