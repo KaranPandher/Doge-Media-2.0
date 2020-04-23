@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button } from "semantic-ui-react";
+import { Form } from "semantic-ui-react";
 
 const FormExampleFieldErrorLabel = () => (
   <Form>
@@ -23,7 +23,6 @@ const FormExampleFieldErrorLabel = () => (
         pointing: "left",
       }}
     />
-    <Button type="submit">Submit</Button>
   </Form>
 );
 
