@@ -1,10 +1,10 @@
 import * as React from "react";
 import { Fragment } from "react";
-
 import { Route, Switch } from "react-router-dom";
 import NotFound from "./NotFound";
-import ActvityDetails from "./components/ActivityDetails";
-import ActivityDashboard from "./components/ActivityDashboard";
+
+// import ActvityDetails from "./components/ActivityDetails";
+// import ActivityDashboard from "./components/ActivityDashboard";
 
 import NavBar from "./Navbar";
 import Page1 from "./Page1";
@@ -24,8 +24,6 @@ export default class App extends React.Component<IAppProps> {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Page1} />
-          <Route exact path="/activities" component={ActivityDashboard} />
-          <Route path="/activities/:id" component={ActvityDetails} />
           <Route path="/page1" component={Page1} />
           <Route path="/page2" component={Page2} />
           <Route path="/page3" component={Page3} />
@@ -34,6 +32,8 @@ export default class App extends React.Component<IAppProps> {
           {/* non displayed links */}
           <Route path="/Profile-Stephane" component={Stephane} />   
           <Route path="/Profile-Karan" component={Karan} />
+          {/* <Route exact path="/activities" component={ActivityDashboard} />
+          <Route path="/activities/:id" component={ActvityDetails} /> */}
 
           <Route component={NotFound} />
         </Switch>

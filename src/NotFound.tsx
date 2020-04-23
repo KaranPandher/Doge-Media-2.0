@@ -10,7 +10,7 @@ export default class NotFound extends React.Component<INotFoundProps> {
   public render() {
     return (
       <div>
-        <Item.Image centered as='a' href="../src/Page2" size='large' src={error} />
+        <Item.Image as='a' href="./Page2" size='large' src={error} />
       </div>
     );
   }
