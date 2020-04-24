@@ -4,7 +4,7 @@ import { Card, Icon} from 'semantic-ui-react'
 import doge from '../img/ProfilePictures/dogeprofilepicture.png'
 
 const CardExampleCardProps = () => (
-  <Card
+  <Card.Group
     image= {doge}
     header='Doge'
     meta='(often /ˈdoʊdʒ/ DOHJ, /ˈdoʊɡ/ DOHG)'

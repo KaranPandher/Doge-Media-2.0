@@ -4,7 +4,7 @@ import karan from '../img/ProfilePictures/karan.jpg';
 
 
 const CardExampleCardProps4 = () => (
-  <Card
+  <Card fluid 
     image= {karan}
     header='Karan'
     meta='You wanna start a podcast?'

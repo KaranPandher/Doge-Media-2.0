@@ -3,7 +3,7 @@ import { Card, Icon} from 'semantic-ui-react';
 import stephane from '../img/ProfilePictures/stephane.jpg';
 
 const CardExampleCardProps2 = () => (
-  <Card
+  <Card fluid
     image= {stephane}
     header='Stephane'
     meta='You wanna start a podcast?'
