@@ -1,7 +1,7 @@
 import * as React from "react";
-import ItemExampleExtraContent from "./components/NewsFeedContent";
+import MessageExampleAttached from "./components/InputReigster";
 
-// newsfeed
+// not assigned
 
 export interface IPage2Props {}
 
@@ -9,7 +9,7 @@ export default class Page2 extends React.Component<IPage2Props> {
   public render() {
     return (
       <div>
-        <ItemExampleExtraContent />
+        <MessageExampleAttached />
       </div>
     );
   }

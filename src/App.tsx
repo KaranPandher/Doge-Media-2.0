@@ -7,12 +7,12 @@ import NotFound from "./NotFound";
 // import ActivityDashboard from "./components/ActivityDashboard";
 
 import NavBar from "./Navbar";
-import Page1 from "./Page1";
-import Page2 from "./Page2";
-import Page3 from "./Page3";
-import Page4 from "./Page4";
-import ContactUs from "./Contact-Us";
+import Page1Login from "./Page1Login";
+import Page2SignUp from "./Page2SignUp";
+import Page3Newsfeed from "./Page3Newsfeed";
+import Page4ContactUs from "./Page4ContactUs";
 import Stephane from "./Profile-Stephane";
+import Doge from "./Profile-Doge";
 import Karan from "./Profile-Karan";
 
 export interface IAppProps {}
@@ -23,18 +23,17 @@ export default class App extends React.Component<IAppProps> {
       <Fragment>
         <NavBar />
         <Switch>
-          <Route exact path="/" component={Page1} />
-          <Route path="/page1" component={Page1} />
-          <Route path="/page2" component={Page2} />
-          <Route path="/page3" component={Page3} />
-          <Route path="/page4" component={Page4} />
-          <Route path="/contact-us" component={ContactUs} />
+          <Route exact path="/" component={Page1Login} />
+          <Route path="/Page1Login" component={Page1Login} />
+          <Route path="/Page2SignUp" component={Page2SignUp} />
+          <Route path="/Page3Newsfeed" component={Page3Newsfeed} />
+          <Route path="/Page4ContactUs" component={Page4ContactUs} />
           {/* non displayed links */}
           <Route path="/Profile-Stephane" component={Stephane} />   
           <Route path="/Profile-Karan" component={Karan} />
+          <Route path="/Profile-Doge" component={Doge} />
           {/* <Route exact path="/activities" component={ActivityDashboard} />
           <Route path="/activities/:id" component={ActvityDetails} /> */}
-
           <Route component={NotFound} />
         </Switch>
       </Fragment>

@@ -1,17 +1,15 @@
 import React from "react";
 import { Form } from "semantic-ui-react";
 
-const FormExampleFieldErrorLabel = () => (
+const FormExampleField = () => (
   <Form>
     <Form.Input
-      error={{ content: "Please enter your valid email", pointing: "below" }}
       fluid
       label="Email"
       placeholder="Email"
       id="form-input-email"
     />
     <Form.Input
-      error="Please enter your password"
       fluid
       label="Password"
       placeholder="Password"
@@ -19,11 +17,11 @@ const FormExampleFieldErrorLabel = () => (
     <Form.Checkbox
       label="Are you a human?"
       error={{
-        content: "",
+        content: "We want to avoid bots populating out site",
         pointing: "left",
       }}
     />
   </Form>
 );
 
-export default FormExampleFieldErrorLabel;
+export default FormExampleField;

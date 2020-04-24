@@ -3,10 +3,10 @@ import CardExampleCardProps from './components/ProfileCard';
 import TabExampleBasicAll from './components/Tabmenu';
 // import ImageExampleFluid from './components/ProfileCover';
 
-export interface IProfileStephaneProps {
+export interface IProfileDogeProps {
 }
 
-export default class ProfileStephane extends React.Component<IProfileStephaneProps> {
+export default class ProfileDoge extends React.Component<IProfileDogeProps> {
   public render() {
     return (
       <div>

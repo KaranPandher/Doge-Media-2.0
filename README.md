@@ -12,7 +12,7 @@ Doc file: https://docs.google.com/document/d/1CybwT4prfElu970pLK0zEmvQT7yxaMu9/
 
 Your project must fulfill the following coding criteria:
 
-    Demonstrates use of Semantic UI React
+    Demonstrates use of Semantic UI React 
     Demonstrates the use of Redux to manage states
     Demonstrates the ability to get user input and process data before output
     Demonstrates understanding of the lifecycle methods
@@ -22,6 +22,7 @@ Your project must fulfill the following coding criteria:
     Code must use TSX (Not JSX)
 
 Your project must fulfill the following coding best practices criteria:
+
     Break down all functionality into reusable components
     Project must be error free
     Project must be warning free
@@ -38,6 +39,7 @@ Your project must fulfill the following design criteria:
     Avoids Divs if developing custom content (semantic-ui-react will use divs, this is acceptable)
 
 All members of each group are expected to attend a daily morning stand up with their assigned TA/Instructor:
+
     Day 1
     Day 2
     Day 3
