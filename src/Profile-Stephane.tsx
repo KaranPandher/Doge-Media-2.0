@@ -1,7 +1,6 @@
 import * as React from 'react';
-import CardExampleCardProps from './components/ProfileCard';
+import CardExampleCardProps2 from './components/ProfileCardStephane';
 import TabExampleBasicAll from './components/Tabmenu';
-// import ImageExampleFluid from './components/ProfileCover';
 
 export interface IProfileStephaneProps {
 }
@@ -10,7 +9,7 @@ export default class ProfileStephane extends React.Component<IProfileStephanePro
   public render() {
     return (
       <div>
-        <CardExampleCardProps/>
+        <CardExampleCardProps2/>
         <TabExampleBasicAll/>
       </div>
     );

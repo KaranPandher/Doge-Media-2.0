@@ -5,6 +5,7 @@ import stephane from '../img/ProfilePictures/stephane.jpg';
 import karan from '../img/ProfilePictures/karan.jpg';
 import marvin from '../img/ProfilePictures/marvin.png';
 import marat from '../img/ProfilePictures/marat.jpg';
+import doge from '../img/ProfilePictures/dogeprofilepicture.png';
 
 const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
 
@@ -16,7 +17,7 @@ const ItemExampleExtraContent = () => (
       <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 
       <Item.Content>
-        <Item.Header as='a' href="../Profile-Stephane">Stephane Valentine</Item.Header>
+        <Item.Header as='a' href="../Profile-Stephane">Stephane Apples</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
@@ -39,10 +40,10 @@ const ItemExampleExtraContent = () => (
     </Item>
 
     <Item>
-      <Item.Image as='a' href="../Profile-Stephane" size='small' src={marvin} />
+      <Item.Image as='a' href="../Profile-Marvin" size='small' src={marvin} />
 
       <Item.Content>
-        <Item.Header as='a' href="../Profile-Stephane">Marvin Incognito</Item.Header>
+        <Item.Header as='a' href="../Profile-Marvin">Marvin Incognito</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
@@ -52,14 +53,26 @@ const ItemExampleExtraContent = () => (
     </Item>
 
     <Item>
-      <Item.Image as='a' href="../img/ProfilePictures/marat.jpg" size='small' src={marat} />
+      <Item.Image as='a' href="../Profile-Marat" size='small' src={marat} />
 
       <Item.Content>
-        <Item.Header as='a' href="../Profile-Stephane">Marat Sochi</Item.Header>
+        <Item.Header as='a' href="../Profile-Marat">Marat Sochi</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
           <Icon color='red' name='minus' /> 80 Votes
+        </Item.Extra>
+      </Item.Content>
+    </Item>
+    <Item>
+      <Item.Image as='a' href="../Profile-Doge" size='small' src={doge} />
+
+      <Item.Content>
+        <Item.Header as='a' href="../Profile-Doge">Doge</Item.Header>
+        <Item.Description>{paragraph}</Item.Description>
+        <Item.Extra>
+          <Icon color='green' name='plus' />
+          <Icon color='red' name='minus' /> 8000 Votes
         </Item.Extra>
       </Item.Content>
     </Item>

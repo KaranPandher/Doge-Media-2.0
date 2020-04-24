@@ -1,12 +1,11 @@
 import * as React from 'react';
 import CardExampleCardProps from './components/ProfileCardDoge';
 import TabExampleBasicAll from './components/Tabmenu';
-// import ImageExampleFluid from './components/ProfileCover';
 
-export interface IProfileDogeProps {
+export interface IProfileStephaneProps {
 }
 
-export default class ProfileDoge extends React.Component<IProfileDogeProps> {
+export default class ProfileStephane extends React.Component<IProfileStephaneProps> {
   public render() {
     return (
       <div>
