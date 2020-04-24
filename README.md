@@ -45,7 +45,8 @@ All members of each group are expected to attend a daily morning stand up with t
     Day 3
     Day 4
     Day 5
-    Due Dates:
+
+Due Dates:
 
 Morning stand up on Monday, April 20: Wireframe, Trello board (populated with tasks and assigned to group members).
 Monday, April 27: Assignment is due at 9 AM.
