@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form, Icon, Message } from "semantic-ui-react";
+import ModalExampleShorthand from './Terms&Conditons';
 
 const MessageExampleAttached = () => (
   <div>
@@ -27,12 +28,13 @@ const MessageExampleAttached = () => (
       <Form.Input label="Username" placeholder="Username" type="text" />
       <Form.Input label="Password" type="password" />
       <Form.Checkbox inline label="Are you a human?" />
+      <ModalExampleShorthand/>
       <Form.Checkbox inline label="I agree to the terms and conditions" />
       <Button color="pink">Submit</Button>
     </Form>
     <Message attached="bottom" color="pink" warning>
       <Icon name="help" />
-      Already signed up?&nbsp;<a href="../Page1Login">Login here</a>&nbsp;instead.
+      Already signed up?&nbsp;<a href="../">Login here</a>&nbsp;instead.
     </Message>
   </div>
 );

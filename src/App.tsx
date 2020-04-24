@@ -11,9 +11,12 @@ import Page1Login from "./Page1Login";
 import Page2SignUp from "./Page2SignUp";
 import Page3Newsfeed from "./Page3Newsfeed";
 import Page4ContactUs from "./Page4ContactUs";
+
 import Stephane from "./Profile-Stephane";
 import Doge from "./Profile-Doge";
 import Karan from "./Profile-Karan";
+import Marvin from "./Profile-Marvin";
+import Marat from "./Profile-Marat";
 
 export interface IAppProps {}
 
@@ -31,6 +34,8 @@ export default class App extends React.Component<IAppProps> {
           {/* non displayed links */}
           <Route path="/Profile-Stephane" component={Stephane} />   
           <Route path="/Profile-Karan" component={Karan} />
+          <Route path="/Profile-Marat" component={Marat} />
+          <Route path="/Profile-Marvin" component={Marvin} />
           <Route path="/Profile-Doge" component={Doge} />
           {/* <Route exact path="/activities" component={ActivityDashboard} />
           <Route path="/activities/:id" component={ActvityDetails} /> */}
