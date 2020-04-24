@@ -1,5 +1,5 @@
 import * as React from 'react';
-import CardExampleCardProps from './components/ProfileCardDoge'
+import CardExampleCardProps4 from './components/ProfileCardKaran'
 import TabExampleBasicAll from './components/Tabmenu'
 
 export interface IProfileStephaneProps {
@@ -9,7 +9,7 @@ export default class ProfileStephane extends React.Component<IProfileStephanePro
   public render() {
     return (
       <div>
-        <CardExampleCardProps/>
+        <CardExampleCardProps4/>
         <TabExampleBasicAll/>
       </div>
     );
