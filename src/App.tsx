@@ -24,6 +24,7 @@ export default class App extends React.Component<IAppProps> {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Page1Login} />
+          <Route path="/Page1Login" component={Page1Login} />
           <Route path="/Page2SignUp" component={Page2SignUp} />
           <Route path="/Page3Newsfeed" component={Page3Newsfeed} />
           <Route path="/Page4ContactUs" component={Page4ContactUs} />

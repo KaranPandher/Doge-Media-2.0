@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-export interface IContactUsProps {
+export interface IPage4ContactUsProps {
 }
 
-export default class ContactUs extends React.Component<IContactUsProps> {
+export default class Page4ContactUs extends React.Component<IPage4ContactUsProps> {
   public render() {
     return (
       <div>
