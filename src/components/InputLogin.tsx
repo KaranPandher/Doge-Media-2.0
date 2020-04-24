@@ -1,17 +1,15 @@
 import React from "react";
 import { Form } from "semantic-ui-react";
 
-const FormExampleFieldErrorLabel = () => (
+const FormExampleField = () => (
   <Form>
     <Form.Input
-      error={{ content: "Please enter your valid email", pointing: "below" }}
       fluid
       label="Email"
       placeholder="Email"
       id="form-input-email"
     />
     <Form.Input
-      error="Please enter your password"
       fluid
       label="Password"
       placeholder="Password"
@@ -26,4 +24,4 @@ const FormExampleFieldErrorLabel = () => (
   </Form>
 );
 
-export default FormExampleFieldErrorLabel;
+export default FormExampleField;
