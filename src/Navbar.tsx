@@ -13,6 +13,10 @@ export default class NavBar extends React.Component<INavBarProps> {
           Newsfeed
         </Menu.Item>
 
+        <Menu.Item as = {Link} to = {`./`} name = "allProfiles">
+          Users
+        </Menu.Item>
+        
         <Menu.Item as={Link} to={`/error-404`} name="error">
           Broken Link Page
         </Menu.Item>     
