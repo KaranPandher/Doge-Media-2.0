@@ -30,7 +30,7 @@ const ItemExampleExtraContent = () => (
     <Item.Image as='a' href="../Profile-Karan" size='small' src={karan} />
 
       <Item.Content>
-        <Item.Header as='a'>Karan Father</Item.Header>
+        <Item.Header as='a' href="../Profile-Karan">Karan Redux</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
@@ -68,7 +68,7 @@ const ItemExampleExtraContent = () => (
       <Item.Image as='a' href="../Profile-Doge" size='small' src={doge} />
 
       <Item.Content>
-        <Item.Header as='a' href="../Profile-Doge">Doge</Item.Header>
+        <Item.Header as='a' href="../Profile-Doge">Doge "The Logo"</Item.Header>
         <Item.Description>{paragraph}</Item.Description>
         <Item.Extra>
           <Icon color='green' name='plus' />
