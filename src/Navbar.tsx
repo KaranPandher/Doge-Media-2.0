@@ -8,7 +8,7 @@ export interface INavBarProps {}
 export default class NavBar extends React.Component<INavBarProps> {
   public render() {
     return (
-      <Menu fixed = 'top'>
+      <Menu fixed = 'top' overflow = 'visible'>
         <Menu.Item as={Link} to={`/Page3Newsfeed`} name="newsfeed">
           Newsfeed
         </Menu.Item>
@@ -16,10 +16,14 @@ export default class NavBar extends React.Component<INavBarProps> {
         <Menu.Item as = {Link} to = {`./`} name = "allProfiles">
           Users
         </Menu.Item>
-        
+
         <Menu.Item as={Link} to={`/error-404`} name="error">
           Broken Link Page
         </Menu.Item>     
+
+        <Menu.Item as={Link} to={`/error-404`} name="error">
+          Contact Us
+        </Menu.Item>  
 
         <Menu.Menu position="right">
           <Menu.Item position="right" as={Link} to={`/Page1Login`} name="login">
