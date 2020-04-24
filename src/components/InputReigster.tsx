@@ -32,7 +32,7 @@ const MessageExampleAttached = () => (
     </Form>
     <Message attached="bottom" color="pink" warning>
       <Icon name="help" />
-      Already signed up?&nbsp;<a href="../Page2">Login here</a>&nbsp;instead.
+      Already signed up?&nbsp;<a href="../Page1Login">Login here</a>&nbsp;instead.
     </Message>
   </div>
 );
