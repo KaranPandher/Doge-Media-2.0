@@ -1,21 +1,40 @@
-import React from 'react'
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import React from "react";
+import { Button, Form, Icon, Message } from "semantic-ui-react";
 
-const FormExampleForm = () => (
-  <Form>
-    <Form.Field>
-      <label>First Name</label>
-      <input placeholder='First Name' />
-    </Form.Field>
-    <Form.Field>
-      <label>Last Name</label>
-      <input placeholder='Last Name' />
-    </Form.Field>
-    <Form.Field>
-      <Checkbox label='Are you a human?' />
-    </Form.Field>
-    <Button type='submit'>Submit</Button>
-  </Form>
-)
+const MessageExampleAttached = () => (
+  <div>
+    <Message
+      attached
+      header="Welcome to our site!"
+      content="Fill out the form below to sign-up for a new account"
+      color="blue"
+    />
+    <Form className="attached fluid segment">
+      <Form.Group widths="equal">
+        <Form.Input
+          fluid
+          label="First Name"
+          placeholder="First Name"
+          type="text"
+        />
+        <Form.Input
+          fluid
+          label="Last Name"
+          placeholder="Last Name"
+          type="text"
+        />
+      </Form.Group>
+      <Form.Input label="Username" placeholder="Username" type="text" />
+      <Form.Input label="Password" type="password" />
+      <Form.Checkbox inline label="Are you a human?" />
+      <Form.Checkbox inline label="I agree to the terms and conditions" />
+      <Button color="pink">Submit</Button>
+    </Form>
+    <Message attached="bottom" color="pink" warning>
+      <Icon name="help" />
+      Already signed up?&nbsp;<a href="../Page2">Login here</a>&nbsp;instead.
+    </Message>
+  </div>
+);
 
-export default FormExampleForm
+export default MessageExampleAttached;

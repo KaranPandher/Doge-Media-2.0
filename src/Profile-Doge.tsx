@@ -1,0 +1,19 @@
+import * as React from 'react';
+import CardExampleCardProps from './components/ProfileCard';
+import TabExampleBasicAll from './components/Tabmenu';
+import ImageExampleFluid from './components/ProfileCover';
+
+export interface IProfileDogeProps {
+}
+
+export default class ProfileDoge extends React.Component<IProfileDogeProps> {
+  public render() {
+    return (
+      <div>
+        <ImageExampleFluid/>
+        <CardExampleCardProps/>
+        <TabExampleBasicAll/>
+      </div>
+    );
+  }
+}
