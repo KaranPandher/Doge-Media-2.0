@@ -4,7 +4,7 @@ cd doge-media
 
 install extensions
 
-npm install redux react-redux
+npm install react-redux
 npm install redux-devtools-extension
 npm install semantic-ui-react
 npm install react-router-dom
