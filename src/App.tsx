@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
-import { connect } from 'react-redux';
+//import { connect } from 'react-redux';
 
 // import ActvityDetails from "./components/ActivityDetails";
 // import ActivityDashboard from "./components/ActivityDashboard";
