@@ -8,7 +8,7 @@ const description= [
 const ItemCardDoge = () => (
     <Item.Group>
     <Item>
-      <Item.Image size= 'medium' img='../img/ProfilePictures/dogelogo.png' />
+      <Item.Image size= 'large' img='../img/ProfilePictures/dogelogo.png' />
 
       <Item.Content>
         <Item.Header as='a'>Cute Dog</Item.Header>

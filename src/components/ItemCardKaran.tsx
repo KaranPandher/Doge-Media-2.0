@@ -9,7 +9,7 @@ const description= [
 const ItemCardKaran = () => (
     <Item.Group>
     <Item>
-      <Item.Image size= 'small' image = {karan} />
+      <Item.Image size= 'large' image = {karan} />
 
       <Item.Content>
         <Item.Header as='a'>Cute Dog</Item.Header>
