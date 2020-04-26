@@ -19,6 +19,6 @@ export default class Profile extends React.Component<IProfileProps> {
                 <CardExampleCardProps/>
                 <CardExampleCardProps5/>
             </div>
-        )
-    };
+        );
+    }
 }
