@@ -5,9 +5,8 @@ import MessageExampleList from "./components/ListMessage";
 import { addPost, removePost } from "./store/newsfeed/action";
 import { Post } from "./store/newsfeed/types";
 import { connect } from "react-redux";
-import { $CombinedState } from "redux";
-
-// newsfeed
+import { Form, TextArea, Input } from "semantic-ui-react";
+import { Fragment } from "react";
 
 export interface Page3Props {
   ddPostsFromFeed: typeof addPost;
@@ -16,26 +15,35 @@ export interface Page3Props {
 }
 
 export class Page3 extends React.Component<Page3Props> {
+
+  newBark(e: any) 
+  {
+    e.preventDefault();
+  }
+
   public render() {
     return (
-      <div>
+      <Fragment>
         <MessageExampleList />
-        {this.props.posts.map((posts) => {
-          return <p>posts</p>;
-        })}
+        <h1>Welcome to the Doge Park</h1>
         <ItemExampleExtraContent />
-      </div>
+        <Form onSubmit={this.newBark}>
+          <TextArea placeholder="Tell us more" />
+        </Form>
+        <br />
+        <Input type="submit" value="Bark" />
+        {this.props.posts.map((posts) => {
+          return;
+        })}
+      </Fragment>
     );
   }
 }
 
-const mapStateToProps = ( state: RootState) => {
+const mapStateToProps = (state: RootState) => {
   return {
-    posts: state.feed.posts
-  }
-}
+    posts: state.feed.posts,
+  };
+};
 
-export default connect(
-  mapStateToProps,
-  {addPost, removePost}
-)(Page3);
+export default connect(mapStateToProps, { addPost, removePost })(Page3);
