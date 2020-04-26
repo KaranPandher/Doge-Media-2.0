@@ -17,7 +17,7 @@ export interface Page3Props {
 export class Page3 extends React.Component<Page3Props> {
   // This generates the random id.
   randomID = (): number => {
-    let randomNumber: number = Math.floor(Math.random() * 1000);
+    let randomNumber: number = Math.floor(Math.random() * 50);
     randomNumber += this.props.posts.length;
     return randomNumber;
   };
@@ -31,13 +31,14 @@ export class Page3 extends React.Component<Page3Props> {
       '[posted="postedtext"]'
     );
     console.log(this.randomID());
+    if (textArea !== null) console.log(textArea.value)
     let textAreaValue: string = "";
 
     if (textArea !== null) textAreaValue = textArea.value;
 
     addPost({
       id: this.randomID(),
-      posted: textAreaValue,
+      posted: textAreaValue
     });
   };
 
@@ -49,8 +50,8 @@ export class Page3 extends React.Component<Page3Props> {
         <br />
         <ItemExampleExtraContent />
         <Form onSubmit={this.newBark}>
-          <TextArea type="text" placeholder="Tell us more" />
-          <Input type="submit" value="Bark" />
+          <TextArea posted="postedtext"/>
+          <Input type="Submit" value="Bark" />
         </Form>
         <br />
         {this.props.posts.map((element) => (
