@@ -13,9 +13,7 @@ const paragraph = (
 
 export interface NewsFeedProps {}
 
-export default class ItemExampleExtraContent extends React.Component<
-  NewsFeedProps
-> {
+export default class NewsFeedContent extends React.Component<NewsFeedProps> {
   render() {
     return (
       <Grid>

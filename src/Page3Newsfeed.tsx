@@ -1,12 +1,13 @@
 import * as React from "react";
 import { RootState } from "./store";
-import ItemExampleExtraContent from "./components/NewsFeedContent";
+import NewsFeedContent from "./components/NewsFeedContent";
 import MessageExampleList from "./components/ListMessage";
 import { addPost, removePost } from "./store/newsfeed/action";
 import { Post } from "./store/newsfeed/types";
 import { connect } from "react-redux";
-import { Form, TextArea, Input } from "semantic-ui-react";
+import { Form, TextArea, Input, Item, Icon, Grid } from "semantic-ui-react";
 import { Fragment } from "react";
+import marvin from "./img/ProfilePictures/dog5.png"
 
 export interface Page3Props {
   addPost: typeof addPost;
@@ -38,7 +39,7 @@ export class Page3 extends React.Component<Page3Props> {
 
     this.props.addPost({
       id: this.randomID(),
-      posted: textAreaValue
+      posted: textAreaValue,
     });
   };
 
@@ -48,15 +49,34 @@ export class Page3 extends React.Component<Page3Props> {
         <MessageExampleList />
         <h1>Welcome to the Doge Park</h1>
         <br />
-        <ItemExampleExtraContent />
-        <br />
-        {this.props.posts.map((element) => (
-          <div>{element.posted}</div>
-        ))}
         <Form onSubmit={this.newBark}>
           <TextArea posted="postedtext" />
           <Input type="Submit" value="Bark" />
         </Form>
+        <br />
+        <NewsFeedContent />
+        <br />
+        <br />
+        {this.props.posts.map((element) => (
+          <Grid>
+            <Item.Group>
+            <Item>
+              <Item.Image as="a" href="../Profile-Marvin" size="small" src={marvin}/>
+
+              <Item.Content>
+                <Item.Header as="a" href="../Profile-Marvin">
+                  Marvin Incognito
+                </Item.Header>
+                <Item.Description>{element.posted}</Item.Description>
+                <Item.Extra>
+                  <Icon color="green" name="plus" />
+                  <Icon color="red" name="minus" /> 0 Votes
+                </Item.Extra>
+              </Item.Content>
+            </Item>
+            </Item.Group>
+          </Grid>
+        ))}
       </Fragment>
     );
   }
