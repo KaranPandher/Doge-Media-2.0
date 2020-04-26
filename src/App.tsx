@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
+//import { connect } from 'react-redux';
 
 // import ActvityDetails from "./components/ActivityDetails";
 // import ActivityDashboard from "./components/ActivityDashboard";
@@ -18,6 +19,8 @@ import Doge from "./Profile-Doge";
 import Karan from "./Profile-Karan";
 import Marvin from "./Profile-Marvin";
 import Marat from "./Profile-Marat";
+
+import NotFound from "./NotFound";
 
 export interface IAppProps {}
 
