@@ -9,18 +9,20 @@ const description= [
 const ItemCardKaran = () => (
     <Item.Group>
     <Item>
-      <Item.Image size= 'large' image = {karan} />
+      <Item.Image size= 'medium' src = {karan} />
 
       <Item.Content>
-        <Item.Header as='a'>Cute Dog</Item.Header>
+        <Item.Header as='a'>Karan Father</Item.Header>
         <p></p>
         <p>{extra}</p>
+        <h4> You wanna start a podcast? </h4>
         <Item.Description>
           <p>{description}</p>
           <p>
             Many people also have their own barometers for what makes a cute
             dog.
           </p>
+          <p> {description} </p>
         </Item.Description>
       </Item.Content>
     </Item>

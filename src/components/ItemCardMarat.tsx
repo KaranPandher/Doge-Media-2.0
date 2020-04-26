@@ -12,7 +12,7 @@ const ItemCardMarat = () => (
       <Item.Image size= 'large' src= {DogMarat} alt = "Marat Logo" />
 
       <Item.Content>
-        <Item.Header as='a'>Cute Dog</Item.Header>
+        <Item.Header as='a'>Marat Sochi</Item.Header>
         <p></p>
         <p>{extra}</p>
         <h4>Come visit me in the studio!</h4>

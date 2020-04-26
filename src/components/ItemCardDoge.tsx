@@ -11,7 +11,7 @@ const ItemCardDoge = () => (
     <Item>
       <Item.Image size= 'medium' src = {Doge} alt = "Doge Logo" />
       <Item.Content>
-        <Item.Header as='a'><h2>Cute Dog</h2></Item.Header>
+        <Item.Header as='a'><h2>Doge</h2></Item.Header>
         <p></p>
         <p>{extra}</p>
         <h4>(often /ˈdoʊdʒ/ DOHJ, /ˈdoʊɡ/ DOHG)</h4>
