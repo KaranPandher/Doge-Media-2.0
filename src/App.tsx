@@ -13,6 +13,7 @@ import Page1Login from "./Page1Login";
 import Page2SignUp from "./Page2SignUp";
 import Page3Newsfeed from "./Page3Newsfeed";
 import Page4ContactUs from "./Page4ContactUs";
+import Page5Profiles from "./Page5Profiles";
 
 import Stephane from "./Profile-Stephane";
 import Doge from "./Profile-Doge";
@@ -34,6 +35,7 @@ export default class App extends React.Component<IAppProps> {
           <Route path="/Page2SignUp" component={Page2SignUp} />
           <Route path="/Page3Newsfeed" component={Page3Newsfeed} />
           <Route path="/Page4ContactUs" component={Page4ContactUs} />
+          <Route path ="/Page5Profiles" componenet = {Page5Profiles} />
           {/* non displayed links */}
           <Route path="/Profile-Stephane" component={Stephane} />   
           <Route path="/Profile-Karan" component={Karan} />
