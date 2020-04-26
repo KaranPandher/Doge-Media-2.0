@@ -5,11 +5,11 @@ import CardExampleCardProps from './components/ProfileCardDoge';
 import CardExampleCardProps3 from './components/ProfileCardMarvin';
 import CardExampleCardProps2 from './components/ProfileCardStephane';
 
-export interface IProfileStephaneProps {
+export interface IProfileProps {
 
 }
 
-export default class ProfileStephane extends React.Component<IProfileStephaneProps> {
+export default class Profile extends React.Component<IProfileProps> {
     public render() {
         return (
             <div>
