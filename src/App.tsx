@@ -13,7 +13,7 @@ import Page1Login from "./Page1Login";
 import Page2SignUp from "./Page2SignUp";
 import Page3Newsfeed from "./Page3Newsfeed";
 import Page4ContactUs from "./Page4ContactUs";
-import Page5Profiles from "./Page5Profiles";
+import Page5Profiles from "./Page4ContactUs";
 
 import Stephane from "./Profile-Stephane";
 import Doge from "./Profile-Doge";
