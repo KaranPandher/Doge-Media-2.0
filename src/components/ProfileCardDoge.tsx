@@ -1,10 +1,10 @@
 import React from 'react'
-import { Card, Icon} from 'semantic-ui-react'
+import { Card, Icon, Item} from 'semantic-ui-react'
 // import stephane from '../img/ProfilePictures/stephane.jpg'
 import doge from '../img/ProfilePictures/dogeprofilepicture.png'
 
 const CardExampleCardProps = () => (
-  <Card
+  <Card 
     image= {doge}
     header='Doge'
     meta='(often /ˈdoʊdʒ/ DOHJ, /ˈdoʊɡ/ DOHG)'
