@@ -10,7 +10,7 @@ const initialState: FeedState = {
   posts: [
     {
       id: 1,
-      posted: "123"
+      posted: " "
     },
   ],
 };

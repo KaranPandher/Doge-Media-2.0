@@ -9,8 +9,8 @@ import { Form, TextArea, Input } from "semantic-ui-react";
 import { Fragment } from "react";
 
 export interface Page3Props {
-  addPostToFeed: typeof addPost;
-  removePostFromFeed: typeof removePost;
+  addPost: typeof addPost;
+  removePost: typeof removePost;
   posts: Post[];
 }
 
@@ -31,12 +31,12 @@ export class Page3 extends React.Component<Page3Props> {
       '[posted="postedtext"]'
     );
     console.log(this.randomID());
-    if (textArea !== null) console.log(textArea.value)
+    if (textArea !== null) console.log(textArea.value);
     let textAreaValue: string = "";
 
     if (textArea !== null) textAreaValue = textArea.value;
 
-    addPost({
+    this.props.addPost({
       id: this.randomID(),
       posted: textAreaValue
     });
@@ -49,14 +49,14 @@ export class Page3 extends React.Component<Page3Props> {
         <h1>Welcome to the Doge Park</h1>
         <br />
         <ItemExampleExtraContent />
-        <Form onSubmit={this.newBark}>
-          <TextArea posted="postedtext"/>
-          <Input type="Submit" value="Bark" />
-        </Form>
         <br />
         {this.props.posts.map((element) => (
           <div>{element.posted}</div>
         ))}
+        <Form onSubmit={this.newBark}>
+          <TextArea posted="postedtext" />
+          <Input type="Submit" value="Bark" />
+        </Form>
       </Fragment>
     );
   }
