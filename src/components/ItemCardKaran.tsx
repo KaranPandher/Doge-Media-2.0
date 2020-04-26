@@ -1,5 +1,5 @@
 import React from "react";
-import {Item} from "semantic-ui-react";
+import {Item, Icon} from "semantic-ui-react";
 import karan from '../img/ProfilePictures/dog2.png';
 
 const description= [
@@ -13,6 +13,8 @@ const ItemCardKaran = () => (
 
       <Item.Content>
         <Item.Header as='a'>Cute Dog</Item.Header>
+        <p></p>
+        <p>{extra}</p>
         <Item.Description>
           <p>{description}</p>
           <p>
@@ -23,6 +25,12 @@ const ItemCardKaran = () => (
       </Item.Content>
     </Item>
     </Item.Group>
+)
+const extra = (
+  <div>
+    <Icon name='user' />
+    3000 Followers
+  </div>
 )
 
 export default ItemCardKaran
