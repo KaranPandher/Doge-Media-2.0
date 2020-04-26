@@ -1,6 +1,6 @@
 export interface Post {
     id: number,
-    name: string
+    posted: string | number
 }
 
 export interface FeedState {
@@ -12,9 +12,12 @@ export const REMOVE_POST_FROM_FEED = 'REMOVE_POST_FROM_FEED';
 
 interface AddPostFromFeed {
     type: typeof ADD_POST_FROM_FEED
-    payload: number // This number will match the "id" of Post.
+    payload: Post // This will add a new post to the store. 
 }
 
 interface RemovePostFromFeed {
     type: typeof REMOVE_POST_FROM_FEED
+    payload: number // This should match the post Id. 
 }
+
+export type FeedActionTypes = AddPostFromFeed | RemovePostFromFeed;
