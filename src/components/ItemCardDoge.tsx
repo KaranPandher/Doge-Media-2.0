@@ -29,7 +29,7 @@ const ItemCardDoge = () => (
 const extra = (
   <div>
     <Icon name='user' />
-    3000 Followers
+    23546 Followers
   </div>
 )
 

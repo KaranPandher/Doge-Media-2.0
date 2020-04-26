@@ -28,7 +28,7 @@ const ItemCardStephane = () => (
 const extra = (
   <div>
     <Icon name='user' />
-    3000 Followers
+    3232 Followers
   </div>
 )
 
