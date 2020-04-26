@@ -3,7 +3,7 @@ import { Form, Grid, Header, Image , Button} from "semantic-ui-react";
 
 const FormExampleField = () => (
   <Grid textAlign = 'center' verticalAlign = 'middle'>
-    <Grid.Column style={{ maxWidth: 400 }}>
+    <Grid.Column style={{ maxWidth: 600 }}>
       <Header as = 'h2' color = 'teal' textAlign = 'center'>
         <Image src = '../img/banner.png'/> Login to your account 
       </Header>
