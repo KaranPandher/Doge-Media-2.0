@@ -5,6 +5,7 @@ import {
   FeedActionTypes,
 } from "./types";
 
+// This is the initial state
 const initialState: FeedState = {
   posts: [
     {
@@ -14,6 +15,7 @@ const initialState: FeedState = {
   ],
 };
 
+// This set up the reducer
 export function feedReducer(state = initialState, action: FeedActionTypes) {
   switch (action.type) {
     case ADD_POST_FROM_FEED:
