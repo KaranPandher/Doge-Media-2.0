@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Icon} from 'semantic-ui-react';
-import stephane from '../img/ProfilePictures/stephane.jpg';
+import stephane from '../img/ProfilePictures/dog3.png';
 
 const CardExampleCardProps2 = () => (
   <Card

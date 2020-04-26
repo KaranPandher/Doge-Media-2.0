@@ -1,10 +1,10 @@
 import React from 'react';
 import { Icon, Image, Item, Grid } from 'semantic-ui-react';
 
-import stephane from '../img/ProfilePictures/stephane.jpg';
-import karan from '../img/ProfilePictures/karan.jpg';
-import marvin from '../img/ProfilePictures/marvin.png';
-import marat from '../img/ProfilePictures/marat.jpg';
+import stephane from '../img/ProfilePictures/dog3.png';
+import karan from '../img/ProfilePictures/dog2.png';
+import marvin from '../img/ProfilePictures/dog5.png';
+import marat from '../img/ProfilePictures/dog4.png';
 import doge from '../img/ProfilePictures/dogeprofilepicture.png';
 
 const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
@@ -12,7 +12,7 @@ const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/sho
 const ItemExampleExtraContent = () => (
   <Grid>
   <Item.Group>
-  <h1>Your Newsfeed</h1>
+  <h1>Welcome to the Doge Park</h1>
     <Item>
       <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
 

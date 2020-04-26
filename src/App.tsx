@@ -7,6 +7,8 @@ import { Route, Switch } from "react-router-dom";
 // import ActivityDashboard from "./components/ActivityDashboard";
 
 import NavBar from "./Navbar";
+import NotFound from "./NotFound";
+
 import Page1Login from "./Page1Login";
 import Page2SignUp from "./Page2SignUp";
 import Page3Newsfeed from "./Page3Newsfeed";
@@ -28,6 +30,7 @@ export default class App extends React.Component<IAppProps> {
       <Fragment>
         <NavBar />
         <Switch>
+           {/* the exact path / is your Homepage */}
           <Route exact path="/" component={Page1Login} />
           <Route path="/Page1Login" component={Page1Login} />
           <Route path="/Page2SignUp" component={Page2SignUp} />
@@ -41,6 +44,7 @@ export default class App extends React.Component<IAppProps> {
           <Route path="/Profile-Doge" component={Doge} />
           {/* <Route exact path="/activities" component={ActivityDashboard} />
           <Route path="/activities/:id" component={ActvityDetails} /> */}
+          {/* this is your default path */}
           <Route component={NotFound} />
         </Switch>
       </Fragment>
