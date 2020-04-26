@@ -35,10 +35,8 @@ export class Page3 extends React.Component<Page3Props> {
           <TextArea placeholder="Tell us more" />
         </Form>
         <br />
-        <Input type="submit" value="Bark" />
-        {this.props.posts.map((posts) => {
-          return;
-        })}
+        {this.props.posts.map(element => (<div>{element.posted}</div>))}
+        <Input type="submit" value="Bark" />      
       </Fragment>
     );
   }
