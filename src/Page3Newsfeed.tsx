@@ -9,8 +9,8 @@ import { Form, TextArea, Input } from "semantic-ui-react";
 import { Fragment } from "react";
 
 export interface Page3Props {
-  ddPostsFromFeed: typeof addPost;
-  removePostsFromFeed: typeof removePost;
+  addPostToFeed: typeof addPost;
+  removePostFromFeed: typeof removePost;
   posts: Post[];
 }
 
@@ -19,13 +19,17 @@ export class Page3 extends React.Component<Page3Props> {
   newBark(e: any) 
   {
     e.preventDefault();
+    addPost( { 
+      id: 2,
+      posted: "Some more tests"
+    } );
   }
 
   public render() {
     return (
       <Fragment>
         <MessageExampleList />
-        <h1>Welcome to the Doge Park</h1>
+        <h1>Welcome to the Doge Park</h1><br />
         <ItemExampleExtraContent />
         <Form onSubmit={this.newBark}>
           <TextArea placeholder="Tell us more" />
