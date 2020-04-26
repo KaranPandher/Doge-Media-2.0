@@ -15,31 +15,31 @@ export interface Page3Props {
 }
 
 export class Page3 extends React.Component<Page3Props> {
-
-  // This generates the random id. 
+  // This generates the random id.
   randomID = (): number => {
-    let randomNumber: number = Math.floor(Math.random()*100);
+    let randomNumber: number = Math.floor(Math.random() * 1000);
     randomNumber += this.props.posts.length;
     return randomNumber;
   };
 
   // This will add a new "post" or in our case a new "bark".
-  newBark(e: any) {
+  newBark = (e: any) => {
     e.preventDefault();
 
     // This grabs the text value from our form.
-    const textField: HTMLInputElement | null = document.querySelector(
+    const textArea: HTMLInputElement | null = document.querySelector(
       '[posted="postedtext"]'
     );
-    let textFieldValue: string = " ";
+    console.log(this.randomID());
+    let textAreaValue: string = "";
 
-    if (textField !== null) textFieldValue = textField.value;
+    if (textArea !== null) textAreaValue = textArea.value;
 
     addPost({
-      id: 2,
-      posted: textFieldValue,
+      id: this.randomID(),
+      posted: textAreaValue,
     });
-  }
+  };
 
   public render() {
     return (
@@ -49,13 +49,13 @@ export class Page3 extends React.Component<Page3Props> {
         <br />
         <ItemExampleExtraContent />
         <Form onSubmit={this.newBark}>
-          <TextArea placeholder="Tell us more" />
+          <TextArea type="text" placeholder="Tell us more" />
+          <Input type="submit" value="Bark" />
         </Form>
         <br />
         {this.props.posts.map((element) => (
           <div>{element.posted}</div>
         ))}
-        <Input type="submit" value="Bark" />
       </Fragment>
     );
   }
