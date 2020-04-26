@@ -22,6 +22,7 @@ const FormExampleField = () => (
       iconPosition = 'left'
       label="Password"
       placeholder="Password"
+      type = "password"
     />
     <br></br>
     <Form.Checkbox
