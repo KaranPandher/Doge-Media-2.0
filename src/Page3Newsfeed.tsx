@@ -15,7 +15,27 @@ export interface Page3Props {
   posts: Post[];
 }
 
-export class Page3 extends React.Component<Page3Props> {
+export interface Page3State {
+  vote: number
+}
+
+export class Page3 extends React.Component<Page3Props, Page3State> {
+  constructor(props: Page3Props){
+    super(props);
+    this.state = {
+      vote: 0 
+    };
+  }
+
+  upVote = () => {
+    this.setState({ vote: this.state.vote + 1});
+  }
+
+  downVote = () => {
+    this.setState({ vote: this.state.vote - 1});
+  }
+
+
   // This generates the random id.
   randomID = (): number => {
     let randomNumber: number = Math.floor(Math.random() * 50);
@@ -50,7 +70,7 @@ export class Page3 extends React.Component<Page3Props> {
         <h1>Welcome to the Doge Park</h1>
         <br />
         <Form onSubmit={this.newBark}>
-          <TextArea posted="postedtext" style={{ maxWidth: 700 }} />
+          <TextArea posted="postedtext" style={{ maxWidth: 900 }} />
           <p></p>
           <Input type="Submit" value="Bark" />
         </Form>
@@ -70,8 +90,9 @@ export class Page3 extends React.Component<Page3Props> {
                 </Item.Header>
                 <Item.Description>{element.posted}</Item.Description>
                 <Item.Extra>
-                  <Icon color="green" name="plus" />
-                  <Icon color="red" name="minus" /> 0 Votes
+                  <Icon color="green" name="plus" onClick={this.upVote}/>
+                  <Icon color="red" name="minus" onClick={this.downVote}/> 
+                  {this.state.vote} Votes 
                 </Item.Extra>
               </Item.Content>
             </Item>
