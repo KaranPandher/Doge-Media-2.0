@@ -1,6 +1,7 @@
 import { FeedActionTypes, ADD_POST_FROM_FEED, REMOVE_POST_FROM_FEED, Post } from "./types";
 
 export function addPost(post: Post): FeedActionTypes {
+  console.log(post);
     return {
       type: ADD_POST_FROM_FEED,
       payload: post

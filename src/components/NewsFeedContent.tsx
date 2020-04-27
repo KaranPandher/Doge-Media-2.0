@@ -1,83 +1,118 @@
-import React from 'react';
-import { Icon, Image, Item, Grid } from 'semantic-ui-react';
+import React from "react";
+import { Icon, Image, Item, Grid } from "semantic-ui-react";
 
-import stephane from '../img/ProfilePictures/stephane.jpg';
-import karan from '../img/ProfilePictures/karan.jpg';
-import marvin from '../img/ProfilePictures/marvin.png';
-import marat from '../img/ProfilePictures/marat.jpg';
-import doge from '../img/ProfilePictures/dogeprofilepicture.png';
+import stephane from "../img/ProfilePictures/dog3.png";
+import karan from "../img/ProfilePictures/dog2.png";
+import marvin from "../img/ProfilePictures/dog5.png";
+import marat from "../img/ProfilePictures/dog4.png";
+import doge from "../img/ProfilePictures/dogeprofilepicture.png";
 
-const paragraph = <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+const paragraph = (
+  <Image src="https://react.semantic-ui.com/images/wireframe/short-paragraph.png" />
+);
 
-const ItemExampleExtraContent = () => (
-  <Grid>
-  <Item.Group>
-  <h1>Your Newsfeed</h1>
-    <Item>
-      <Item.Image as='a' href="../Profile-Stephane" size='small' src={stephane} />
+export interface NewsFeedProps {}
 
-      <Item.Content>
-        <Item.Header as='a' href="../Profile-Stephane">Stephane Apples</Item.Header>
-        <Item.Description>{paragraph}</Item.Description>
-        <Item.Extra>
-          <Icon color='green' name='plus' />
-          <Icon color='red' name='minus' /> 50 Votes
-        </Item.Extra>
-      </Item.Content>
-    </Item>
+export default class NewsFeedContent extends React.Component<NewsFeedProps> {
+  render() {
+    return (
+      <Grid>
+        <Item.Group>
+          <Item>
+            <Item.Image
+              as="a"
+              href="../Profile-Stephane"
+              size="small"
+              src={stephane}
+            />
 
-    <Item>
-    <Item.Image as='a' href="../Profile-Karan" size='small' src={karan} />
+            <Item.Content>
+              <Item.Header as="a" href="../Profile-Stephane">
+                Stephane Apples
+              </Item.Header>
+              <Item.Description>{paragraph}</Item.Description>
+              <Item.Extra>
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> 50 Votes
+              </Item.Extra>
+            </Item.Content>
+          </Item>
 
-      <Item.Content>
-        <Item.Header as='a' href="../Profile-Karan">Karan Redux</Item.Header>
-        <Item.Description>{paragraph}</Item.Description>
-        <Item.Extra>
-          <Icon color='green' name='plus' />
-          <Icon color='red' name='minus' /> 150 Votes
-        </Item.Extra>
-      </Item.Content>
-    </Item>
+          <Item>
+            <Item.Image
+              as="a"
+              href="../Profile-Karan"
+              size="small"
+              src={karan}
+            />
 
-    <Item>
-      <Item.Image as='a' href="../Profile-Marvin" size='small' src={marvin} />
+            <Item.Content>
+              <Item.Header as="a" href="../Profile-Karan">
+                Karan Redux
+              </Item.Header>
+              <Item.Description>{paragraph}</Item.Description>
+              <Item.Extra>
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> 150 Votes
+              </Item.Extra>
+            </Item.Content>
+          </Item>
 
-      <Item.Content>
-        <Item.Header as='a' href="../Profile-Marvin">Marvin Incognito</Item.Header>
-        <Item.Description>{paragraph}</Item.Description>
-        <Item.Extra>
-          <Icon color='green' name='plus' />
-          <Icon color='red' name='minus' /> 300 Votes
-        </Item.Extra>
-      </Item.Content>
-    </Item>
+          <Item>
+            <Item.Image
+              as="a"
+              href="../Profile-Marvin"
+              size="small"
+              src={marvin}
+            />
 
-    <Item>
-      <Item.Image as='a' href="../Profile-Marat" size='small' src={marat} />
+            <Item.Content>
+              <Item.Header as="a" href="../Profile-Marvin">
+                Marvin Incognito
+              </Item.Header>
+              <Item.Description>{paragraph}</Item.Description>
+              <Item.Extra>
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> 300 Votes
+              </Item.Extra>
+            </Item.Content>
+          </Item>
 
-      <Item.Content>
-        <Item.Header as='a' href="../Profile-Marat">Marat Sochi</Item.Header>
-        <Item.Description>{paragraph}</Item.Description>
-        <Item.Extra>
-          <Icon color='green' name='plus' />
-          <Icon color='red' name='minus' /> 80 Votes
-        </Item.Extra>
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image as='a' href="../Profile-Doge" size='small' src={doge} />
+          <Item>
+            <Item.Image
+              as="a"
+              href="../Profile-Marat"
+              size="small"
+              src={marat}
+            />
 
-      <Item.Content>
-        <Item.Header as='a' href="../Profile-Doge">Doge "The Logo"</Item.Header>
-        <Item.Description>{paragraph}</Item.Description>
-        <Item.Extra>
-          <Icon color='green' name='plus' />
-          <Icon color='red' name='minus' /> 8000 Votes
-        </Item.Extra>
-      </Item.Content>
-    </Item>
-  </Item.Group>
-  </Grid>
-)
+            <Item.Content>
+              <Item.Header as="a" href="../Profile-Marat">
+                Marat Sochi
+              </Item.Header>
+              <Item.Description>{paragraph}</Item.Description>
+              <Item.Extra>
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> 80 Votes
+              </Item.Extra>
+            </Item.Content>
+          </Item>
+          <Item>
+            <Item.Image as="a" href="../Profile-Doge" size="small" src={doge} />
 
-export default ItemExampleExtraContent
+            <Item.Content>
+              <Item.Header as="a" href="../Profile-Doge">
+                Doge "The Logo"
+              </Item.Header>
+              <Item.Description>{paragraph}</Item.Description>
+              <Item.Extra>
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> 8000 Votes
+              </Item.Extra>
+            </Item.Content>
+          </Item>
+        </Item.Group>
+      </Grid>
+    );
+  }
+}
