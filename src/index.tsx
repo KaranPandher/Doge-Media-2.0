@@ -10,7 +10,7 @@ import store from './store'
 
 
 export const history = createBrowserHistory();
-ReactDOM.render(
+ReactDOM.render( 
   <Router history={history}>
     <Provider store={store()}>
     <App />
