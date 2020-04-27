@@ -2,7 +2,7 @@ import React from 'react'
 import { Message } from 'semantic-ui-react'
 
 const MessageExampleList = () => (
-  <Message color ="orange" style={{ maxWidth: 900 }} >
+  <Message color ="orange" style={{ maxWidth: 800 }} >
     <Message.Header>New Site Features</Message.Header>
     <Message.List>
       <Message.Item>You can now have click on images that will lead to your profile</Message.Item>

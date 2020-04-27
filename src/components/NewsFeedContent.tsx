@@ -79,14 +79,14 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
               <Item.Header
                 as="a"
                 href="../Profile-Stephane"
-                style={{ maxWidth: 550 }}
+                style={{ maxWidth: 600 }}
               >
                 Mishu
               </Item.Header>
-              <Item.Meta style={{ maxWidth: 550 }}>
+              <Item.Meta style={{ maxWidth: 600 }}>
                 Human: Stephane / Breed: German Shepherd Malamute / Hobby: <Icon name="trophy" color="yellow" /> YEG Fetch Champ
               </Item.Meta>
-              <Item.Content style={{ maxWidth: 550 }}>
+              <Item.Content style={{ maxWidth: 600 }}>
                 I can't believe i lost my humans ball at the park again! It's an
                 orange ball that has the word "Step" marking on it! No idea what
                 it means. My human said he won't get me another one till this is
@@ -95,7 +95,7 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
                 <br />
                 #WhosAGoodDog #BarksUp #FetchLife #AtTheParkWithMyWoes
               </Item.Content>
-              <Item.Extra style={{ maxWidth: 550 }}>
+              <Item.Extra style={{ maxWidth: 600 }}>
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
@@ -116,23 +116,23 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
               <Item.Header
                 as="a"
                 href="../Profile-Karan"
-                style={{ maxWidth: 550 }}
+                style={{ maxWidth: 600 }}
               >
                 Rosie
               </Item.Header>
-              <Item.Meta style={{ maxWidth: 550 }}>
+              <Item.Meta style={{ maxWidth: 600 }}>
                 Human: Karan / Breed: Pitbull / Hobby: Chew Toys Destroyer 
                 <Icon name="football ball" color="blue" />
                 <Icon name="hand lizard outline" color="blue" />
               </Item.Meta>
-              <Item.Content style={{ maxWidth: 550 }}>
+              <Item.Content style={{ maxWidth: 600 }}>
                 Got a toy that needs chewing? Need a running partner? Look no
                 futher! i'm your dog!
                 <br />
                 <br />
                 #ChewToysDontStandAChance #BarksUp #WhatMakesAGoodDog
               </Item.Content>
-              <Item.Extra style={{ maxWidth: 550 }}>
+              <Item.Extra style={{ maxWidth: 600 }}>
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
@@ -153,22 +153,22 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
               <Item.Header
                 as="a"
                 href="../Profile-Marvin"
-                style={{ maxWidth: 550 }}
+                style={{ maxWidth: 600 }}
               >
                 Sniphersz
               </Item.Header>
-              <Item.Meta style={{ maxWidth: 550 }}>
+              <Item.Meta style={{ maxWidth: 600 }}>
                 Human: Marvin / Breed: Bichon Frise Poopdle Mix / Hobby: Paw Patroller 
                 <Icon name='shield' color="green" />
                 <Icon name='thumbs up outline' color="purple" />
               </Item.Meta>
-              <Item.Content style={{ maxWidth: 550 }}>
+              <Item.Content style={{ maxWidth: 600 }}>
                 Just another day on patrolling the house. Wondering if i'll be able to get a nap in today during my shift. Heard my human saying he's gonna go for a nap. I'm gonna sneak a nap in too...sshhh
                 <br />
                 <br />
                 #NapTown #SleepingOnTheJob #BarksUp
               </Item.Content>
-              <Item.Extra style={{ maxWidth: 550 }}>
+              <Item.Extra style={{ maxWidth: 600 }}>
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
@@ -189,21 +189,21 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
               <Item.Header
                 as="a"
                 href="../Profile-Marat"
-                style={{ maxWidth: 550 }}
+                style={{ maxWidth: 600 }}
               >
                 Goucho
               </Item.Header>
-              <Item.Meta style={{ maxWidth: 550 }}>
+              <Item.Meta style={{ maxWidth: 600 }}>
                 Human: Marat / Breed: Unkown Mix / Hobby: Barking at humans for no reason
                  <Icon name='talk' color="red" />
               </Item.Meta>
-              <Item.Content style={{ maxWidth: 550 }}>
+              <Item.Content style={{ maxWidth: 600 }}>
                 Some human came up to my door today and dropped of some package that had "Amazon". Wonder if my human finally ordered something for me. <Icon name='food' color="purple" />
                 <br />
                 <br />
                 #WhoIAmKidding #Hungry #WoofWoof
               </Item.Content>
-              <Item.Extra style={{ maxWidth: 550 }}>
+              <Item.Extra style={{ maxWidth: 600 }}>
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
@@ -224,20 +224,20 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
               <Item.Header
                 as="a"
                 href="../Profile-Doge"
-                style={{ maxWidth: 550 }}
+                style={{ maxWidth: 600 }}
               >
                 Doge
               </Item.Header>
-              <Item.Meta style={{ maxWidth: 550 }}>
+              <Item.Meta style={{ maxWidth: 600 }}>
                 Human: None / Breed: Shiba Inu / Hobby: Mining Dogecoin <Icon name='money' color="green"/> <Icon name='clock outline' color="blue"/>
               </Item.Meta>
-              <Item.Content style={{ maxWidth: 550 }}>
+              <Item.Content style={{ maxWidth: 600 }}>
                 Thinking of getting into Dogecoin? Get in on the ground floor! Start mining Cryptocurrency today! <Icon name='money' color="purple" />
                 <br />
                 <br />
                 #DollaDollaBills #Success #SuchMoney #SoGood
               </Item.Content>
-              <Item.Extra style={{ maxWidth: 550 }}>
+              <Item.Extra style={{ maxWidth: 600 }}>
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
