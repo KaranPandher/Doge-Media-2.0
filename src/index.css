@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-.card2 {
-  margin: 100px 20px 20px 20px;
-  box-shadow: 10px grey;
+.login-background {
+background-color: aquamarine;
 }
