@@ -20,6 +20,8 @@ import Karan from "./Profile-Karan";
 import Marvin from "./Profile-Marvin";
 import Marat from "./Profile-Marat";
 
+import './components/Stylesheet.css'
+
 export interface IAppProps {}
 
 export default class App extends React.Component<IAppProps> {
