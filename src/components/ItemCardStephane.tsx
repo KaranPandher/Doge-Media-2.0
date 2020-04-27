@@ -13,7 +13,7 @@ const ItemCardStephane = () => (
     <Item>
       <Item.Image size= 'medium' src= {StephaneLogo} alt = "Stephane Logo" />
       <Item.Content>
-        <Item.Header as='a'>Stephane Apples</Item.Header>
+        <Item.Header as='a'>Mishu</Item.Header>
         <p></p>
         <p>{extra}</p>
         <h4> {meta} </h4>
