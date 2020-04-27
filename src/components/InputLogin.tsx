@@ -1,11 +1,12 @@
 import React from "react";
 import { Form, Grid, Header, Image , Button} from "semantic-ui-react";
+import loginIcon from '../img/login-icon.png';
 
 const FormExampleField = () => (
   <Grid textAlign = 'center' verticalAlign = 'middle'>
     <Grid.Column style={{ maxWidth: 600 }}>
       <Header as = 'h2' color = 'teal' textAlign = 'center'>
-        <Image src = '../img/banner.png'/> Login to your account 
+        <Image src = {loginIcon}/> Login to your account 
       </Header>
   <Form>
     <Form.Input
