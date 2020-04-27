@@ -66,9 +66,9 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
   render() {
     return (
       <Grid className = "NewsFeedcss">
-        <Item.Group>
+        <Item.Group className = "NewsFeed2">
           <br />
-          <Item>
+          <Item fluid className = "NewsFeed3">
             <Item.Image
               as="a"
               href="../Profile-Stephane"

@@ -3,7 +3,7 @@ import { Button, Form, Icon, Message } from "semantic-ui-react";
 import ModalExampleShorthand from './Terms&Conditons';
 
 const MessageExampleAttached = () => (
-  <div>
+  <div style={{ maxWidth: 1000 }}>
     <Message
       attached
       header="Welcome to our site!"
