@@ -77,7 +77,7 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 futher! i'm your dog!
                 <br />
                 <br />
-                #ChewToysDontStandAChance #BarksUp #FetchLife
+                #ChewToysDontStandAChance #BarksUp #WhatMakesAGoodDog
               </Item.Content>
               <Item.Extra style={{ maxWidth: 550 }}>
                 <Icon color="blue" name="food" />
