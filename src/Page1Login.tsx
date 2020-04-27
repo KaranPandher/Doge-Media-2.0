@@ -1,6 +1,5 @@
 import * as React from 'react';
 import FormExampleField from './components/InputLogin'
-// login page
 
 export interface IPage1Props {}
 
