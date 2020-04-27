@@ -7,9 +7,62 @@ import marvin from "../img/ProfilePictures/dog5.png";
 import marat from "../img/ProfilePictures/dog4.png";
 import doge from "../img/ProfilePictures/dogeprofilepicture.png";
 
-export interface NewsFeedProps {}
+export interface NewsFeedProps {
+}
 
-export default class NewsFeedContent extends React.Component<NewsFeedProps> {
+export interface NewsFeedState {
+  vote: number,
+  voteTwo: number,
+  voteThree: number,
+  voteFour: number,
+  voteFive: number
+}
+
+
+export default class NewsFeedContent extends React.Component<NewsFeedProps, NewsFeedState> {
+  constructor(props: NewsFeedState){
+    super(props);
+    this.state = {
+      vote: 500,
+      voteTwo: 687,
+      voteThree: 1132,
+      voteFour: 984,
+      voteFive: 1319
+    };
+  }
+
+  upVote = () => {
+    this.setState({ vote: this.state.vote + 1});
+  }
+  upVoteTwo = () => {
+    this.setState({ voteTwo: this.state.voteTwo + 1});
+  }
+  upVoteThree = () => {
+    this.setState({ voteThree: this.state.voteThree + 1});
+  }
+  upVoteFour = () => {
+    this.setState({ voteFour: this.state.voteFour + 1});
+  }
+  upVoteFive = () => {
+    this.setState({ voteFive: this.state.voteFive + 1});
+  }
+
+  downVote = () => {
+    this.setState({ vote: this.state.vote - 1});
+  }
+  downVoteTwo = () => {
+    this.setState({ voteTwo: this.state.voteTwo - 1});
+  }
+  downVoteThree = () => {
+    this.setState({ voteThree: this.state.voteThree - 1});
+  }
+  downVoteFour = () => {
+    this.setState({ voteFour: this.state.voteFour - 1});
+  }
+  downVoteFive = () => {
+    this.setState({ voteFive: this.state.voteFive - 1});
+  }
+
   render() {
     return (
       <Grid>
@@ -46,8 +99,8 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
-                <Icon color="green" name="plus" />{" "}
-                <Icon color="red" name="minus" /> 50 Votes
+                <Icon color="green" name="plus" onClick={this.upVote} />{" "}
+                <Icon color="red" name="minus" onClick={this.downVote} /> {this.state.vote} Paws 
               </Item.Extra>
             </Item.Content>
           </Item>
@@ -83,8 +136,8 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
-                <Icon color="green" name="plus" />
-                <Icon color="red" name="minus" /> 150 Votes
+                <Icon color="green" name="plus" onClick={this.upVoteTwo}/>
+                <Icon color="red" name="minus" onClick={this.downVoteTwo}/> {this.state.voteTwo} Paws
               </Item.Extra>
             </Item.Content>
           </Item>
@@ -119,8 +172,8 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
-                <Icon color="green" name="plus" />
-                <Icon color="red" name="minus" /> 2000 Votes
+                <Icon color="green" name="plus" onClick={this.upVoteThree}/>
+                <Icon color="red" name="minus" onClick={this.downVoteThree}/> {this.state.voteThree} Paws
               </Item.Extra>
             </Item.Content>
           </Item>
@@ -154,8 +207,8 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
-                <Icon color="green" name="plus" />
-                <Icon color="red" name="minus" /> 150 Votes
+                <Icon color="green" name="plus" onClick={this.upVoteFour}/>
+                <Icon color="red" name="minus" onClick={this.downVoteFour}/> {this.state.voteFour} Paws
               </Item.Extra>
             </Item.Content>
           </Item>
@@ -188,8 +241,8 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps> {
                 <Icon color="blue" name="food" />
                 Treats <Icon color="blue" name="headphones" />
                 Re-Bark! <br />
-                <Icon color="green" name="plus" />
-                <Icon color="red" name="minus" /> 150 Votes
+                <Icon color="green" name="plus" onClick={this.upVoteFive}/>
+                <Icon color="red" name="minus" onClick={this.downVoteFive}/> {this.state.voteFive} Paws
               </Item.Extra>
             </Item.Content>
           </Item>

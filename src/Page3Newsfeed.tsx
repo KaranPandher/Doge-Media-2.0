@@ -71,7 +71,7 @@ export class Page3 extends React.Component<Page3Props> {
                 <Item.Description>{element.posted}</Item.Description>
                 <Item.Extra>
                   <Icon color="green" name="plus" />
-                  <Icon color="red" name="minus" /> 0 Votes
+                  <Icon color="red" name="minus" /> Paws
                 </Item.Extra>
               </Item.Content>
             </Item>
