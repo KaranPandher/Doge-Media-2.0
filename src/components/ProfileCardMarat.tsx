@@ -4,7 +4,7 @@ import marat from '../img/ProfilePictures/dog4.png';
 
 const CardExampleCardProps5 = () => (
   <div className="card2">
-    <Card
+    <Card centered
       image={marat}
       header='Marat'
       meta='Come visit me in the studio!'

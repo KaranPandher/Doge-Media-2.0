@@ -20,7 +20,7 @@ const CardExampleCardProps = () => (
 const extra = (
   <div>
     <Icon name='user' />
-    1600 Followers
+    23546 Followers
   </div>
 )
 

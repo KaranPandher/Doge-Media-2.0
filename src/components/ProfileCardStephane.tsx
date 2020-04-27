@@ -5,7 +5,7 @@ import '../index.css'
 
 const CardExampleCardProps2 = () => (
   <div className="card2">
-    <Card
+    <Card centered
       image={stephane}
       header='Stephane'
       meta='You wanna start a podcast?'
@@ -18,7 +18,7 @@ const CardExampleCardProps2 = () => (
 const extra = (
   <div>
     <Icon name='user' />
-    1600 Followers
+    3232 Followers
   </div>
 )
 
