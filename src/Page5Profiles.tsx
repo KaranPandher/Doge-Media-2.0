@@ -1,4 +1,5 @@
 import * as React from "react";
+// import { RootState } from "./store"; 
 import CardExampleCardProps4 from './components/ProfileCardKaran'
 import CardExampleCardProps5 from './components/ProfileCardMarat';
 import CardExampleCardProps from './components/ProfileCardDoge';
