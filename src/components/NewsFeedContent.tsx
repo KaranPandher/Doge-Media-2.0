@@ -65,7 +65,7 @@ export default class NewsFeedContent extends React.Component<NewsFeedProps, News
 
   render() {
     return (
-      <Grid>
+      <Grid className = "NewsFeedcss">
         <Item.Group>
           <br />
           <Item>

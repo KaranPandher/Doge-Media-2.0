@@ -4,7 +4,7 @@ import loginIcon from "../img/login-icon.png";
 
 const FormExampleField = () => (
   <Grid textAlign="center" verticalAlign="middle">
-    <Grid.Column style={{ maxWidth: 600 }}>
+    <Grid.Column style={{ maxWidth: 600 }} centered >
       <br/>
       <Header as="h2" color="black" textAlign="center">
         <Image src={loginIcon} /> Login to your account

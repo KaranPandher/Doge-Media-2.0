@@ -47,7 +47,7 @@ export default class App extends React.Component<IAppProps> {
           <Route path="/activities/:id" component={ActvityDetails} /> */}
           {/* this is your default path */}
           <Route component={NotFound} />
-        </Switch>
+      </Switch>
       </Fragment>
     );
   }
