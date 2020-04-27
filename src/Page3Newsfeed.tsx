@@ -51,7 +51,7 @@ export class Page3 extends React.Component<Page3Props> {
         <h1>Welcome to the Doge Park</h1>
         <br />
         <Form onSubmit={this.newBark}>
-          <TextArea posted="postedtext" style={{ maxWidth: 550 }} />
+          <TextArea posted="postedtext" style={{ maxWidth: 900 }} />
           <p></p>
           <Input type="Submit" value="Bark" />
         </Form>
