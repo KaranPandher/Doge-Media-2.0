@@ -5,6 +5,8 @@ import CardExampleCardProps from './components/ProfileCardDoge';
 import CardExampleCardProps3 from './components/ProfileCardMarvin';
 import CardExampleCardProps2 from './components/ProfileCardStephane';
 import { Grid } from "semantic-ui-react";
+import './index.css';
+import './components/Stylesheet.css'
 
 export interface IProfileProps {
 
