@@ -62,19 +62,40 @@ export class Page3 extends React.Component<Page3Props> {
           <Grid>
             <Item.Group>
             <Item>
-              <Item.Image as="a" href="../Profile-Marvin" size="small" src={marvin}/>
-
-              <Item.Content>
-                <Item.Header as="a" href="../Profile-Marvin">
-                  Marvin Incognito
-                </Item.Header>
-                <Item.Description>{element.posted}</Item.Description>
-                <Item.Extra>
-                  <Icon color="green" name="plus" />
-                  <Icon color="red" name="minus" /> Paws
-                </Item.Extra>
+            <Item.Image
+              as="a"
+              href="../Profile-Marvin"
+              size="small"
+              src={marvin}
+            />
+            <Item.Content>
+              <Item.Header
+                as="a"
+                href="../Profile-Marvin"
+                style={{ maxWidth: 550 }}
+              >
+                Sniphersz
+              </Item.Header>
+              <Item.Meta style={{ maxWidth: 550 }}>
+                Human: Marvin / Breed: Bichon Frise Poopdle Mix / Hobby: Paw Patroller 
+                <Icon name='shield' color="green" />
+                <Icon name='thumbs up outline' color="purple" />
+              </Item.Meta>
+              <Item.Content style={{ maxWidth: 550 }}> 
+                {element.posted}
+                <br />
+                <br />
+                #NapTown #SleepingOnTheJob #BarksUp
               </Item.Content>
-            </Item>
+              <Item.Extra style={{ maxWidth: 550 }}>
+                <Icon color="blue" name="food" />
+                Treats <Icon color="blue" name="headphones" />
+                Re-Bark! <br />
+                <Icon color="green" name="plus" />
+                <Icon color="red" name="minus" /> Paws
+              </Item.Extra>
+            </Item.Content>
+          </Item>
             </Item.Group>
           </Grid>
         ))}
