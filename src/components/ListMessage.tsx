@@ -10,6 +10,7 @@ const MessageExampleList = () => (
       <Message.Item>Any suggestion for improvement can be emailed to info@dogemedia.ca</Message.Item>
     </Message.List>
   </Message>
+  
 )
 
 export default MessageExampleList
