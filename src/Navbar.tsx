@@ -8,7 +8,7 @@ export interface INavBarProps {}
 export default class NavBar extends React.Component<INavBarProps> {
   public render() {
     return (
-      <Menu pointing style={{ maxWidth: 900 }}>
+      <Menu pointing style={{ maxWidth: 800 }}>
         <Menu.Item as={Link} to={`/Page3Newsfeed`} name="newsfeed">
           Newsfeed
         </Menu.Item>
@@ -29,7 +29,6 @@ export default class NavBar extends React.Component<INavBarProps> {
           <Menu.Item position="right" as={Link} to={`/Page2SignUp`} name="Reigster">
             Register
           </Menu.Item>
-
           <Menu.Item>
             <Input icon="search" placeholder="Search..." />
           </Menu.Item>
