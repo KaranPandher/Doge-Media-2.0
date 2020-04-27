@@ -5,7 +5,8 @@ import loginIcon from "../img/login-icon.png";
 const FormExampleField = () => (
   <Grid textAlign="center" verticalAlign="middle">
     <Grid.Column style={{ maxWidth: 600 }}>
-      <Header as="h2" color="teal" textAlign="center">
+      <br/>
+      <Header as="h2" color="black" textAlign="center">
         <Image src={loginIcon} /> Login to your account
       </Header>
       <Form>
@@ -13,7 +14,7 @@ const FormExampleField = () => (
           fluid
           icon="user"
           iconPosition="left"
-          label="Email"
+          // label="Email"
           placeholder="Email"
           id="form-input-email"
         />
@@ -21,7 +22,7 @@ const FormExampleField = () => (
           fluid
           icon="lock"
           iconPosition="left"
-          label="Password"
+          // label="Password"
           placeholder="Password"
           type="password"
         />
@@ -36,7 +37,7 @@ const FormExampleField = () => (
         <br></br>
       </Form>
 
-      <Button color="teal" fluid size="large" href="../Page3Newsfeed">
+      <Button color="yellow" fluid size="large" textAlign="left" href="../Page3Newsfeed">
         Login
       </Button>
     </Grid.Column>
