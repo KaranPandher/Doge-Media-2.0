@@ -12,6 +12,14 @@ Video Conference: https://meet.jit.si/teamworkmakethedreamwork
 
 Doc file: https://docs.google.com/document/d/1CybwT4prfElu970pLK0zEmvQT7yxaMu9/
 
+Installation Guide:
+    
+    npm install
+    npm install react-redux
+    npm install semantic-ui-react
+    npm install react-router-dom
+    npm install @types/react-router-dom
+
 Your project must fulfill the following coding criteria:
 
     Demonstrates use of Semantic UI React 
@@ -40,16 +48,3 @@ Your project must fulfill the following design criteria:
     Demonstrates knowledge of color theory/correct colors are chosen
     No in-line styles
     Avoids Divs if developing custom content (semantic-ui-react will use divs, this is acceptable)
-
-All members of each group are expected to attend a daily morning stand up with their assigned TA/Instructor:
-
-    Day 1
-    Day 2
-    Day 3
-    Day 4
-    Day 5
-
-Due Dates:
-
-Morning stand up on Monday, April 20: Wireframe, Trello board (populated with tasks and assigned to group members).
-Monday, April 27: Assignment is due at 9 AM.
