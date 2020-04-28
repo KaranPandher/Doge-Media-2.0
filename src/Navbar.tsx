@@ -16,11 +16,7 @@ export default class NavBar extends React.Component<INavBarProps> {
         <Menu.Item as={Link} to={`/Page5Profiles`} name="profiles">
           Users
         </Menu.Item>  
-
-        <Menu.Item as={Link} to={`/error-404`} name="error">
-          Broken Link Page
-        </Menu.Item>     
-
+        
         <Menu.Menu position="right">
           <Menu.Item position="right" as={Link} to={`/Page1Login`} name="login">
             Login

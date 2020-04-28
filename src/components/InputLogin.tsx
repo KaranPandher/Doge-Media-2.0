@@ -28,9 +28,9 @@ const FormExampleField = () => (
         />
         <br></br>
         <Form.Checkbox
-          label="Are you a human?"
+          label="Are you a doge?"
           error={{
-            content: "We want to avoid bots populating our site",
+            content: "We want to avoid doge bots populating our site",
             pointing: "left",
           }}
         />
