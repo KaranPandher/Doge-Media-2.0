@@ -5,7 +5,7 @@ import MessageExampleList from "./components/ListMessage";
 import { addPost, removePost } from "./store/newsfeed/action";
 import { Post } from "./store/newsfeed/types";
 import { connect } from "react-redux";
-import { Form, TextArea, Input, Item, Icon, Grid, Button } from "semantic-ui-react";
+import { Form, TextArea, Item, Icon, Grid, Button } from "semantic-ui-react";
 import { Fragment } from "react";
 
 import marvin from "./img/ProfilePictures/dog5.png";
