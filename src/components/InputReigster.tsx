@@ -8,7 +8,7 @@ const MessageExampleAttached = () => (
       attached
       header="Welcome to our site!"
       content="Fill out the form below to sign-up for a new account"
-      color="blue"
+      color ="orange"
     />
     <Form className="attached fluid segment">
       <Form.Group widths="equal">
@@ -29,8 +29,9 @@ const MessageExampleAttached = () => (
       <Form.Input label="Password" type="password" />
       <Form.Checkbox inline label="Are you a human?" />
       <ModalExampleShorthand/>
+      <br /><br />
       <Form.Checkbox inline label="I agree to the terms and conditions" />
-      <Button color="pink">Submit</Button>
+      <Button color="yellow">Submit</Button>
     </Form>
     <Message attached="bottom" color="pink" warning>
       <Icon name="help" />

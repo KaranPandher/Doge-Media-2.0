@@ -3,7 +3,7 @@ import { Button, Modal } from "semantic-ui-react";
 
 const ModalExampleShorthand = () => (
   <Modal
-    trigger={<Button color="blue">Terms &amp; Conditons</Button>}
+    trigger={<Button color="teal">Terms &amp; Conditons</Button>}
     header="Terms &#38; Conditions for Doge Media!"
     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus fermentum dolor, vitae porta mi pellentesque et. Etiam id iaculis neque. Proin vitae vulputate nibh, condimentum vehicula nulla. Integer nibh massa, aliquam vel sem eu, mollis volutpat nunc. Nam volutpat nisi quis metus fringilla, eget maximus leo euismod. Morbi luctus sit amet ante ac cursus. Proin pharetra nibh rutrum elit mollis, sit amet lobortis dolor auctor. Phasellus turpis libero, lacinia in sem id, rhoncus efficitur tortor. Donec molestie accumsan ornare. Vestibulum finibus euismod nisi, non vestibulum nulla lobortis vel. Curabitur in porta neque. Integer vitae tincidunt metus.
 
