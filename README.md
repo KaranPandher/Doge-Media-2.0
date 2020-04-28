@@ -20,6 +20,22 @@ Installation Guide:
     npm install react-router-dom
     npm install @types/react-router-dom
 
+USER MANUAL: 
+
+    NewsFeed Page: 
+        Counter can be used to vote on each post. 
+        Each post is linked to the users page. 
+        Bark can be used to post a new post.
+
+    Login/UserName Page: 
+        User can login and register.
+
+    Users Page:
+        Show cases of different users. 
+
+    Broken Link:
+        Any link that is not indexed goes to a 404 error page.
+
 Your project must fulfill the following coding criteria:
 
     Demonstrates use of Semantic UI React 
