@@ -26,7 +26,8 @@ background-color: aquamarine;
 .card2 {
   margin: 100px 20px 20px 20px;
   box-shadow: 10px grey;
-
+  display: flex;
+  align-items: stretch;
 }
 
 .NewsFeedcss {
