@@ -20,6 +20,7 @@ Installation Guide:
     npm install react-router-dom
     npm install @types/react-router-dom
 
+
 USER MANUAL: 
 
     NewsFeed Page: 
@@ -35,6 +36,7 @@ USER MANUAL:
 
     Broken Link:
         Any link that is not indexed goes to a 404 error page.
+        
 
 Your project must fulfill the following coding criteria:
 
