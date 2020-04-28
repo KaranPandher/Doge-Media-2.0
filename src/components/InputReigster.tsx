@@ -27,7 +27,7 @@ const MessageExampleAttached = () => (
       </Form.Group>
       <Form.Input label="Username" placeholder="Username" type="text" />
       <Form.Input label="Password" type="password" />
-      <Form.Checkbox inline label="Are you a human?" />
+      <Form.Checkbox inline label="Are you a doge?" />
       <ModalExampleShorthand/>
       <br /><br />
       <Form.Checkbox inline label="I agree to the terms and conditions" />
