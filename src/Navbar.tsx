@@ -8,7 +8,7 @@ export interface INavBarProps {}
 export default class NavBar extends React.Component<INavBarProps> {
   public render() {
     return (
-      <Menu pointing style={{ maxWidth: 800 }}>
+      <Menu pointing style={{ maxWidth: 1000 }}>
         <Menu.Item as={Link} to={`/Page3Newsfeed`} name="newsfeed">
           Newsfeed
         </Menu.Item>

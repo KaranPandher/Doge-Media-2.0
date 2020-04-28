@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 900px;
+  width: 1100px;
   background: #f8f8ff
   
 }
@@ -27,3 +27,12 @@ background-color: aquamarine;
   margin: 100px 20px 20px 20px;
   box-shadow: 10px grey;
 }
+
+.NewsFeedcss {
+  padding: 10px; 
+}
+
+.NewsFeed2 {
+  padding: 10px;
+}
+
